@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+.navmarg {
+	margin-left: 870px;
+}
+
+h1{
+	color: red;
+}
+
+.filebox .upload-name {
+	display: inline-block;
+	height: 100px;
+	padding: 0 10px;
+	vertical-align: middle;
+	border: 1px solid #dddddd;
+	width: 800px;
+	color: #999999;
+}
+
+.insert input[type="file"] {
+	position: absolute;
+	width: 0;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+}
+
+.fileblock label {
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff;
+	vertical-align: middle;
+	background-color: #999999;
+	cursor: pointer;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.insert {
+    padding: 20px 30px;
+    display: block;
+    width: 900px;
+    margin: 5vh auto;
+    height: auto;
+    border: 1px solid #dbdbdb;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.insert .file-list {
+    height: 200px;
+    overflow: auto;
+    border: 1px solid #989898;
+    padding: 10px;
+}
+.insert .file-list .filebox p {
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.insert .file-list .filebox .delete i{
+    color: #ff5353;
+    margin-left: 5px;
+}
+
+.clip {
+	max-width:30rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+.table-horizontal-align {
+	margin-left: 300px;
+	width: 800px;
+}
+
+.column-width {
+	max-width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+.reply-width {
+	max-width: 900px;
+	word-wrap: break-word;
+}
+
+.input-width {
+	width: 750px;
+	text-break: wrap;
+}
+
+.login {
+    padding: 20px 600px;
+    display: block;
+    width: 1700px;
+    margin: 15vh auto;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.file-img {
+	width: 30px;
+	height: 30px;
+}
+
+
+#rc_box {
+	border: 1px solid #dddddd;
+	padding: 15px;
+}
+
+.rc_box_label {
+	color: #999;
+}
+
+.tbox {
+	display: none;
+}
